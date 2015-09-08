@@ -22,17 +22,7 @@
 
 <body>
   
-<?php
-  $username = "localuser";
-  $password = "localpass";
-  $hostname = "localhost"; 
 
-  //connection to the database
-  $dbhandle = mysql_connect($hostname, $username, $password);
-
-  $selected = mysql_select_db("hempra",$dbhandle) 
-    or die("Could not select examples");
-?>
 	
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
@@ -46,8 +36,9 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Esileht</a></li>
+        <li class="active"><a href="index.php">Esileht</a></li>
         <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="#" onclick="testfun('1')">test</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Username</a></li>
@@ -99,32 +90,23 @@
   
 </div>
 
-<div class="container">
+<div class="container" id="changeableContainer">
   <div class="text-center">
     <h1>Sisu</h1>
   </div>
   
+    
   <?php 
-    $result = mysql_query("SELECT content FROM texts WHERE ID='1'");
+    require ('data/myconnection.php');  
+    $result = mysql_query("SELECT content FROM texts WHERE ID='2'");
     while ($row = mysql_fetch_array($result)) {
        echo "Content: ".$row{'content'}."<br>"."<p>".$row{'content'}."</p>";
     }
+    require ('data/closemyconnection.php');  
   ?>
   
 </div><!-- /.container -->
-  
-<div class="container">
-  <!-- Footer -->
-  <div class="modal-footer">
-    <p>© Hemely Practika OÜ</p>
-  </div>
-</div>
-    
-<?php
-//close the connection
-mysql_close($dbhandle);
-?>
-  
+
 <?php include 'footer.html';?>
 
 </body>
