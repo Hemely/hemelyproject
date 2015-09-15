@@ -33,7 +33,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Esileht</a></li>
+        <li><a href="index.php">Esileht</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -47,7 +47,7 @@
 					</ul>
 				</li>
         <li><a href="#">Raamatupidamisteenus</a></li>
-        <li><a href="transport.php">Transporditeenus</a></li>
+        <li class="active"><a href="transport.php">Transporditeenus</a></li>
         <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -58,7 +58,7 @@
 
 <div class="container">
   <div class="text-center">
-    <h1>Hemely Practika</h1>
+    <h1>Transport</h1>
   </div>
 	
 <!--    Siia lehe sisu-->

@@ -21,6 +21,41 @@
 </head>
 
 <body>
+	
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand">Hemely Practika</a>
+	</div>
+	<div class="collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="index.php">Esileht</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Nav header</li>
+					<li><a href="#">Separated link</a></li>
+					<li><a href="#">One more separated link</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Raamatupidamisteenus</a></li>
+			<li><a href="transport.php">Transporditeenus</a></li>
+			<li class="active"><a href="contact.php">Kontakt</a></li>
+		</ul>
+	</div><!--/.nav-collapse -->
+</div>
+</div>
+
+<?php include 'carousel.php';?>
 
 <div class="container">
   <div class="text-center">
@@ -29,21 +64,25 @@
   
   <!-- Kaart -->
   <div class="row-fluid" >
-      <iframe width="75%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.18796696149!2d26.677046999999998!3d58.3565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb376dc41fe8d9%3A0x83cd4ebe3b525bd4!2sHemely+Practika+O%C3%9C!5e0!3m2!1set!2see!4v1433080383925"></iframe>
-      <div class="span4" style="float: right;">
-          <h2>Hemely Practika OÜ</h2>
-          <address>
-              <strong>Aadress: </strong>
-              Riia 185, 50104 Tartu<br>
-              <strong>Telefon: </strong>
-              522 3263<br>
-              <strong>E-mail: </strong>
-              <a href="mailto:hemelypractika@hot.ee">hemelypractika@hot.ee</a><br>
-          </address>
-      </div>
+		<div class="overlay" onClick="style.pointerEvents='none'"></div>
+    <iframe width="75%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.18796696149!2d26.677046999999998!3d58.3565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb376dc41fe8d9%3A0x83cd4ebe3b525bd4!2sHemely+Practika+O%C3%9C!5e0!3m2!1set!2see!4v1433080383925"></iframe>
+		<div class="span4" style="float: right;">
+				<h2>Hemely Practika OÜ</h2>
+				<address>
+						<strong>Aadress: </strong>
+						Riia 185, 50104 Tartu<br>
+						<strong>Telefon: </strong>
+						522 3263<br>
+						<strong>E-mail: </strong>
+						<a href="mailto:hemelypractika@hot.ee">hemelypractika@hot.ee</a><br>
+				</address>
+		</div>
   </div>
-
+	
+<br>
 </div><!-- /.container -->
+	
+<?php include 'footer.html';?>
     
 </body>
 </html>
