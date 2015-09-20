@@ -19,7 +19,7 @@
     <div class="item active wide">
     </div>
     
-    <div class="item wide">
+    <div class="item wide2">
     </div>
 
     <div class="item wide">
