@@ -38,24 +38,24 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 					
 					<ul class="dropdown-menu">
-						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a</li>
+						<li><a href="beginaccounting">Raamatupidamine algajatele</a</li>
 
 
-						<li><a href="lift1.php">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
-						<li><a href="lift2.php">Tõstukijuhtide kursus </a></li>
-						<li><a href="rigger.php">Töötaja täiendusõpe troppijaks </a></li>
-						<li><a href="financial.php">Väikeettevõtete finantsprogramm</a></li>
+						<li><a href="lift1">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
+						<li><a href="lift2">Tõstukijuhtide kursus </a></li>
+						<li><a href="rigger">Töötaja täiendusõpe troppijaks </a></li>
+						<li><a href="financial">Väikeettevõtete finantsprogramm</a></li>
 					<li>
 						<a class="trigger right-caret">Psühholoogia</a>
 						<ul class="dropdown-menu sub-menu">
-							<li><a href="psychology1.php">Suhtlemispsühholoogia</a></li>
-							<li><a href="psychology2.php">Müügipsühholoogia</a></li>
-							<li><a href="psychology3.php">Kaubanduspsühholoogia</a></li>
+							<li><a href="psychology1">Suhtlemispsühholoogia</a></li>
+							<li><a href="psychology2">Müügipsühholoogia</a></li>
+							<li><a href="psychology3">Kaubanduspsühholoogia</a></li>
 						</ul>
 					</li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Registreerimine</li>
-						<li><a href="registration.php">Registreeri kohe</a></li>
+						<li><a href="registration">Registreeri kohe</a></li>
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
