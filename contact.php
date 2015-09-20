@@ -34,7 +34,7 @@
 	</div>
 	<div class="collapse navbar-collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="index.php">Esileht</a></li>
+			<li><a href="index">Esileht</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 				<ul class="dropdown-menu">
@@ -48,8 +48,8 @@
 				</ul>
 			</li>
 			<li><a href="#">Raamatupidamisteenus</a></li>
-			<li><a href="transport.php">Transporditeenus</a></li>
-			<li class="active"><a href="contact.php">Kontakt</a></li>
+			<li><a href="transport">Transporditeenus</a></li>
+			<li class="active"><a href="contact">Kontakt</a></li>
 		</ul>
 	</div><!--/.nav-collapse -->
 </div>
