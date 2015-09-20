@@ -33,19 +33,16 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index">Esileht</a></li>
-				<li class="dropdown">
+        <li><a href="index.php">Esileht</a></li>
+				<li class="dropdown active">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
-					
 					<ul class="dropdown-menu">
-						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a</li>
-
-
+						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
 						<li><a href="lift1.php">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
 						<li><a href="lift2.php">Tõstukijuhtide kursus </a></li>
 						<li><a href="rigger.php">Töötaja täiendusõpe troppijaks </a></li>
 						<li><a href="financial.php">Väikeettevõtete finantsprogramm</a></li>
-					<li>
+						<li>
 						<a class="trigger right-caret">Psühholoogia</a>
 						<ul class="dropdown-menu sub-menu">
 							<li><a href="psychology1.php">Suhtlemispsühholoogia</a></li>
@@ -59,9 +56,9 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting">Raamatupidamisteenus</a></li>
-        <li><a href="transport">Transporditeenus</a></li>
-        <li><a href="contact">Kontakt</a></li>
+        <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
+        <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -70,14 +67,34 @@
 <?php include 'carousel.php';?>
 
 <div class="container">
-  <div class="text-center headline">
-    <!-- <h1>Hemely Practika</h1> -->
-			<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="Vito"></p>
+  <div class="text-center">
+    <h1 class="headline">Töötaja täiendusõpe troppijaks</h1>
+		<p class="pagetext"> <b>Maht:</b> 8 akadeemilist tundi </p>
   </div>
-	
+  	
+	<div>
+		
+		<h3>KURSUSE INFO:</h3>
+		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
+			<b>KURSUSE TOIMUMISE AEG:</b> kokkuleppel<br>
+			<b>KURSUSE HIND:</b> 65 eurot, hinnale lisandub käibemaks 20%<br>
+			<b>KURSUSE LEKTOR:</b>
+		</p>
+		
+		<h3>KURSUSE SISU:</h3>
+		<p >
+			<ul class="pagetext">
+				<li>Kraanade tüübid ja kasutusnõuded.</li>
+				<li> Lastide haarade abivahendid.</li>
+				<li>Tõstetööde teostamine kraanade abil.</li>
+				<li>Ohutusmeetmed. Töö- ja tööohutuse õigusaktid.</li>
+        <li> Troppija töökoha korraldamine.</li
+			</ul>
+		</p>
+		</div>
+  <p class="pagetext"><b>Väljastatav dokument:</b> Troppija tunnistus</p> 
+  
 <!--    Siia lehe sisu-->
-
-	
 <br>
 </div><!-- /.container -->
 

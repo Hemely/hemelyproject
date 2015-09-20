@@ -33,19 +33,16 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index">Esileht</a></li>
-				<li class="dropdown">
+        <li><a href="index.php">Esileht</a></li>
+				<li class="dropdown active">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
-					
 					<ul class="dropdown-menu">
-						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a</li>
-
-
+						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
 						<li><a href="lift1.php">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
 						<li><a href="lift2.php">Tõstukijuhtide kursus </a></li>
 						<li><a href="rigger.php">Töötaja täiendusõpe troppijaks </a></li>
 						<li><a href="financial.php">Väikeettevõtete finantsprogramm</a></li>
-					<li>
+						<li>
 						<a class="trigger right-caret">Psühholoogia</a>
 						<ul class="dropdown-menu sub-menu">
 							<li><a href="psychology1.php">Suhtlemispsühholoogia</a></li>
@@ -59,9 +56,9 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting">Raamatupidamisteenus</a></li>
-        <li><a href="transport">Transporditeenus</a></li>
-        <li><a href="contact">Kontakt</a></li>
+        <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
+        <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -70,14 +67,28 @@
 <?php include 'carousel.php';?>
 
 <div class="container">
-  <div class="text-center headline">
-    <!-- <h1>Hemely Practika</h1> -->
-			<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="Vito"></p>
-  </div>
-	
+  <div class="text-center">
+    <h1 class="headline">Registreerimine kursusele</h1>
+		<p class="pagetext"> Saada kursusele registreerimssoov või küsi lisainfot. </p>
+ 	</div>
+	<div class="container">
+  <form role="form">
+    <div class="form-group">
+      <label for="name">Sisesta nimi:</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Sisesta e-mail:</label>
+      <input type="text" class="form-control" id="email">
+    </div>
+		<div class="form-group">
+  <label for="content">Kursusele registreerimise soov või küsi lisainfot:</label>
+  <textarea class="form-control" rows="5" id="content"></textarea>
+</div>
+  </form>
+</div>
+  
 <!--    Siia lehe sisu-->
-
-	
 <br>
 </div><!-- /.container -->
 

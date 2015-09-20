@@ -33,19 +33,17 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index">Esileht</a></li>
+        <li><a href="index.php">Esileht</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
-					
 					<ul class="dropdown-menu">
-						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a</li>
-
-
+						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
+						
 						<li><a href="lift1.php">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
 						<li><a href="lift2.php">Tõstukijuhtide kursus </a></li>
 						<li><a href="rigger.php">Töötaja täiendusõpe troppijaks </a></li>
 						<li><a href="financial.php">Väikeettevõtete finantsprogramm</a></li>
-					<li>
+						<li>
 						<a class="trigger right-caret">Psühholoogia</a>
 						<ul class="dropdown-menu sub-menu">
 							<li><a href="psychology1.php">Suhtlemispsühholoogia</a></li>
@@ -59,9 +57,9 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting">Raamatupidamisteenus</a></li>
-        <li><a href="transport">Transporditeenus</a></li>
-        <li><a href="contact">Kontakt</a></li>
+        <li class="active"><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
+        <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -70,14 +68,39 @@
 <?php include 'carousel.php';?>
 
 <div class="container">
-  <div class="text-center headline">
-    <!-- <h1>Hemely Practika</h1> -->
-			<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="Vito"></p>
+  <div class="text-center">
+    <h1 class="headline">Raamatupidamisteenus</h1>
+		<p class="pagetext"> Teenuse sisuks on kliendi raamatupidamise igapäevane korraldamine.</p>
+		<p class="pagetext"> Hind kokkuleppel sõltuvalt töö mahust </p>
   </div>
-	
+  	
+	<div>
+		
+		<h3>Teenus sisaldab: </h3> 
+    <p> <ul class="pagetext">
+  <li>kontoplaani väljatöötamist</li>
+  <li>algdokumentide vormilise vastavuse kontrolli</li>
+  <li>algdokumentide kajasamist erinevates registrites</li>
+	<li>käibe-, tulu- ja sotsiaalmaksu arvestust</li>
+	<li>palgaarvestust</li>
+		<li>laoarvestuse pidamist</li>
+		<li>informatsiooni andmist kliendi majandusnäitajate kohta vastavalt kliendi soovile</li>
+		<li>aruannete koostamist ja esitamist vastavalt Eesti Vabariigi seadusandluses 
+sätestatud korrale ja tähtaegadele</li>
+		<li>raamatupidamisalase konsultatsiooni andmist</li>	
+</ul> </p>
+	<h3>Muud raamatupidamisteenused: </h3> 
+	<p > <ul class="pagetext">
+  <li>raamatupidamise sise- eeskirjade väljatöötamine</li>
+	<li>varasemate perioodide korrastamine</li>
+	<li>raamatupidamise taastamine</li>
+	<li>kliendi esindamine Maksuametis</li>
+	<li>aruannete koostamine ja esitamine  Äriregistrile ja Statistikaametile vastavalt 
+Eesti Vabariigi seadusandluses sätestatud korrale ja tähtaegadele.</li>
+	</div>
+   
+  
 <!--    Siia lehe sisu-->
-
-	
 <br>
 </div><!-- /.container -->
 
