@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Esileht</a></li>
-				<li class="dropdown">
+				<li class="dropdown active">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
@@ -56,8 +56,8 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting.php">Raamatupidamisteenus</a></li>
-        <li class="active"><a href="transport.php">Transporditeenus</a></li>
+        <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
         <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -68,41 +68,38 @@
 
 <div class="container">
   <div class="text-center">
-    <h1 class="headline">Transport</h1>
-		<p class="pagetext"> Hinnad kokkuleppel sõltuvalt sõidu kestvusest ja kilometraažist.</p>
+    <h1 class="headline">Tõstukijuhtide koolitus praktilise kogemusega tõstukijuhile</h1>
+		<p class="pagetext"> <b>Maht:</b> 12 akadeemilist tundi (1 päev) </p>
   </div>
   	
 	<div>
 		
-   	<p class="imagesize"><img class="img-thumbnail" src="images/vito.jpg" alt="Vito"></p>
-		<h3>Transporditeenus väikebussiga </h3> 
-    <p class="pagetext">Pakume Teile võimalust tellida oma sõitudeks nii Eestis kui ka välismaal 7 kohalist mugavat väikebussi Mercedes-Benz Vito.</p>
+		<h3>KURSUSE INFO:</h3>
+		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
+			<b>KURSUSE TOIMUMISE AEG:</b><br>10.09.2015<br>12.11.2015<br>10.12.2015<br>
+			<b>KURSUSE HIND:</b> 100 eurot, hinnale lisandub käibemaks 20%<br>
+		</p>
+		
+		<p class="pagetext"> Kaasa võtta <b>1 pilt tunnistusele (3x4 cm)</b><br>
+		<b>Tõstukijuhi koolitusi viime läbi ka Teie ettevõttes kohapeal.</b></p>
+		
+		<h3>KURSUSE SISU</h3>
+		<p>
+			<ul>
+				<li><b>Teooriakursus</b>-  tõstukite, virnastajate, kärude ehitus, kasutamine ja hooldamine. 		Laadimistööde teostamise kord. Ohutusmeetmed. Esmaabi. Tööohutuse ja töösuhete õigusaktid. Eksam.</li>
+				<li><b>Tööpraktika omas ettevõttes</b>-  80 tundi (ettevõtte tööohutuse juhendid, tõstukite kasutamise ja hooldamise juhendid. Harjutused juhendaja juhendamisel. Proovitöö sooritamine.</li> Enne teooriakursust esitab õppija tööpraktika tõendi tööandjalt.
+			</ul>
+		</p>
+		<p><b>Väljastatav dokument:</b> Tunnistus sisetranspordi liikurmasina juhi ( tõstekahvliga, kopaga, konteinerhaaratsiga või muu haaratsiga sisepõlemismootoriga või elektriajamiga laadurid, virnastajad, kärud ja muud liikurmasinad) kutsealase õppe läbimise kohta.</p>
+		
 	</div>
-   <h3>Transporditeenus bussiga </h3>
-	<p class="pagetext">16-50 kohta</p>
-	<h3>Veoteenus treilieriga </h3>
-	<p class="pagetext">Kandevõime on kuni 2 tonni.</p>
+   
   
-
+<!--    Siia lehe sisu-->
 <br>
-	
 </div><!-- /.container -->
 
-
-	<div class="container">
-  <!-- Footer -->
-	
-  <div class="modal-footer">
-		<div class="text-left">
-		<p class="pagetext">Info ja Tellimine:</p> 
-		<p>GSM: 502 1979<br>
-			e-post: hemelypractika@gmail.com<br>
-			e-post: hemelypractika@hot.ee</p>
-		</div>
-    <p class="footright">© Hemely Practika OÜ</p>
-		
-  </div>
-</div>
+<?php include 'footer.html';?>
 
 </body>
 </html>

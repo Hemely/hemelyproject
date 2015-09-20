@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Esileht</a></li>
-				<li class="dropdown">
+				<li class="dropdown active">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
@@ -56,8 +56,8 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting.php">Raamatupidamisteenus</a></li>
-        <li class="active"><a href="transport.php">Transporditeenus</a></li>
+        <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
         <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -68,41 +68,31 @@
 
 <div class="container">
   <div class="text-center">
-    <h1 class="headline">Transport</h1>
-		<p class="pagetext"> Hinnad kokkuleppel sõltuvalt sõidu kestvusest ja kilometraažist.</p>
-  </div>
-  	
-	<div>
-		
-   	<p class="imagesize"><img class="img-thumbnail" src="images/vito.jpg" alt="Vito"></p>
-		<h3>Transporditeenus väikebussiga </h3> 
-    <p class="pagetext">Pakume Teile võimalust tellida oma sõitudeks nii Eestis kui ka välismaal 7 kohalist mugavat väikebussi Mercedes-Benz Vito.</p>
-	</div>
-   <h3>Transporditeenus bussiga </h3>
-	<p class="pagetext">16-50 kohta</p>
-	<h3>Veoteenus treilieriga </h3>
-	<p class="pagetext">Kandevõime on kuni 2 tonni.</p>
+    <h1 class="headline">Registreerimine kursusele</h1>
+		<p class="pagetext"> Saada kursusele registreerimssoov või küsi lisainfot. </p>
+ 	</div>
+	<div class="container">
+  <form role="form">
+    <div class="form-group">
+      <label for="name">Sisesta nimi:</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Sisesta e-mail:</label>
+      <input type="text" class="form-control" id="email">
+    </div>
+		<div class="form-group">
+  <label for="content">Kursusele registreerimise soov või küsi lisainfot:</label>
+  <textarea class="form-control" rows="5" id="content"></textarea>
+</div>
+  </form>
+</div>
   
-
+<!--    Siia lehe sisu-->
 <br>
-	
 </div><!-- /.container -->
 
-
-	<div class="container">
-  <!-- Footer -->
-	
-  <div class="modal-footer">
-		<div class="text-left">
-		<p class="pagetext">Info ja Tellimine:</p> 
-		<p>GSM: 502 1979<br>
-			e-post: hemelypractika@gmail.com<br>
-			e-post: hemelypractika@hot.ee</p>
-		</div>
-    <p class="footright">© Hemely Practika OÜ</p>
-		
-  </div>
-</div>
+<?php include 'footer.html';?>
 
 </body>
 </html>

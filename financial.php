@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.php">Esileht</a></li>
-				<li class="dropdown">
+				<li class="dropdown active">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="beginaccounting.php">Raamatupidamine algajatele</a></li>
@@ -56,8 +56,8 @@
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting.php">Raamatupidamisteenus</a></li>
-        <li class="active"><a href="transport.php">Transporditeenus</a></li>
+        <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
+        <li><a href="transport.php">Transporditeenus</a></li>
         <li><a href="contact.php">Kontakt</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -68,41 +68,56 @@
 
 <div class="container">
   <div class="text-center">
-    <h1 class="headline">Transport</h1>
-		<p class="pagetext"> Hinnad kokkuleppel sõltuvalt sõidu kestvusest ja kilometraažist.</p>
+    <h1 class="headline">Väikeettevõtete finantsprogramm</h1>
+		<p class="pagetext"> <b>Maht:</b> 60 akadeemilist tundi </p>
   </div>
   	
 	<div>
 		
-   	<p class="imagesize"><img class="img-thumbnail" src="images/vito.jpg" alt="Vito"></p>
-		<h3>Transporditeenus väikebussiga </h3> 
-    <p class="pagetext">Pakume Teile võimalust tellida oma sõitudeks nii Eestis kui ka välismaal 7 kohalist mugavat väikebussi Mercedes-Benz Vito.</p>
-	</div>
-   <h3>Transporditeenus bussiga </h3>
-	<p class="pagetext">16-50 kohta</p>
-	<h3>Veoteenus treilieriga </h3>
-	<p class="pagetext">Kandevõime on kuni 2 tonni.</p>
-  
-
-<br>
+		<h3>KURSUSE INFO:</h3>
+		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
+			<b>KURSUSE TOIMUMISE AEG:</b> kokkuleppel
+			<b>KORRALDUS</b> teisipäev, neljapäev kell 9.00 – 15.30<br>
+			<b>KURSUSE HIND:</b> 790 eurot, hinnale lisandub käibemaks 20%<br>
+			<b>LEKTOR:</b> Heli Halling-Meitern - Raamatupidamise lektor aastast 1995. Töötanud pearaamatupidajana 11 aastat. Osutab väikeettevõtjatele raamatupidamisteenust.<br>
+			<b>SIHTRÜHM:</b> Väikeettevõtte juhid , juhatuse liikmed, raamatupidamisharidusega inimesed, kes peale pausi soovivad uuesti alustada tööd raamatupidajana, jt töötajad, kes vajavad oma töös finantsalaseid teadmisi ja oskusi.<br>
+			<b>EESMÄRK:</b> Anda osavõtjatele teadmisi ja oskusi selleks, et vajalikud teooriad rakendada praktikasse.<br>
+		</p>
+		<p >
+			<ul class="pagetext">
+				<li>kõigile õppijatele komplekteeritakse individuaalsed õppemapid</li>
+				<li>loengud</li>
+				<li>näidisülesannete lahendamine</li>
+				<li>koolituse läbinutele väljastatakse vastav tunnistus</li>
+			</ul>
+		</p>
+		<h3>KURSUSE SISU</h3>
+		<ul class="pagetext">
+			<li>Majandusarvestuse ja finantsjuhtimise olemus</li>
+			<li>Põhilised finantsmõisted ja –aruanded ning nende seos</li>
+			<li>Bilanss, kasumiaruanne, rahavoogude aruanne</li>
+			<li>Põhivara arvestus</li>
+			<li>Tulude arvestus</li>
+			<li>Kulude arvestus</li>
+			<li>Töötasu, puhkuse arvestamise kord, haigushüvitised</li>
+			<li>Maksud, maksudeklaratsioonid</li>
+			<li>Lähetused</li>
+			<li>Raamatupidamisaruannete koostamise põhimõtteid </li>
+			<li>Raamatupidamisarvestuse korraldamine ettevõttes</li>
+			<li>ajandusaasta aruanne</li>
+			<li>Dokumendi- ja arhiivitöö ettevõttes</li>
+			<li>Praktilised ülesanded ja näited</li>
+		</ul>
+		
 	
+	</div>
+   
+  
+<!--    Siia lehe sisu-->
+<br>
 </div><!-- /.container -->
 
-
-	<div class="container">
-  <!-- Footer -->
-	
-  <div class="modal-footer">
-		<div class="text-left">
-		<p class="pagetext">Info ja Tellimine:</p> 
-		<p>GSM: 502 1979<br>
-			e-post: hemelypractika@gmail.com<br>
-			e-post: hemelypractika@hot.ee</p>
-		</div>
-    <p class="footright">© Hemely Practika OÜ</p>
-		
-  </div>
-</div>
+<?php include 'footer.html';?>
 
 </body>
 </html>
