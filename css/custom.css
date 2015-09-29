@@ -1,5 +1,5 @@
 .navbar {
-/*  background-color:#A9D0F5;*/
+/*  background-color:#3B0048;*/
 }
 
 .navbar-default {
@@ -8,6 +8,15 @@
   background-image: none;
   background-repeat: no-repeat;
  }
+
+.navbar-inverse .navbar-brand {
+/*    color: #000;*/
+}
+
+.nav.navbar-nav li a {
+/*	background-color:#D2D2D2;*/
+/*	color: #000;*/
+}
 
 .btn-default {
   color: #333;
@@ -138,4 +147,3 @@ body {
 { max-width: 500px;
 	float: right
 	}
-

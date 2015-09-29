@@ -25,8 +25,8 @@ if(isset($_POST['submit'])){
   <meta charset="utf-8">
 
   <title>Hemely Practika</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="Hemely Practika">
+  <meta name="author" content="Hemely Practika">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -73,7 +73,6 @@ if(isset($_POST['submit'])){
 						<li class="divider"></li>
 						<li class="dropdown-header">Registreerimine</li>
 						<li><a href="registration.php">Registreeri kohe</a></li>
-						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
         <li ><a href="accounting.php">Raamatupidamisteenus</a></li>
@@ -114,6 +113,7 @@ if(isset($_POST['submit'])){
 <br>
 <br>
 	
+<!--
 <form action="" method="post">
 First Name: <input type="text" name="first_name"><br>
 Last Name: <input type="text" name="last_name"><br>
@@ -121,6 +121,7 @@ Email: <input type="text" name="email"><br>
 Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
 <input type="submit" name="submit" value="Submit">
 </form>
+-->
 	
 <!--    Siia lehe sisu-->
 <br>

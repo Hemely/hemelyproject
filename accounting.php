@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <title>Hemely Practika</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="Hemely Practika">
+  <meta name="author" content="Hemely Practika">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -54,7 +54,6 @@
 						<li class="divider"></li>
 						<li class="dropdown-header">Registreerimine</li>
 						<li><a href="registration">Registreeri kohe</a></li>
-						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
         <li class="active"><a href="accounting">Raamatupidamisteenus</a></li>
