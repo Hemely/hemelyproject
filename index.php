@@ -63,10 +63,10 @@
         <li><a href="transport">Transporditeenus</a></li>
         <li><a href="contact">Kontakt</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div><!--.nav-collapse--> 
   </div>
 </div>
-
+	
 <?php include 'carousel.php';?>
 
 <div class="container">

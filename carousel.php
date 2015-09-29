@@ -20,6 +20,9 @@
     </div>
     
     <div class="item wide2">
+			<div class="carousel-content">
+        <h3>HEMELY PRACTIKA</h3>
+      </div>
     </div>
 
     <div class="item wide">
