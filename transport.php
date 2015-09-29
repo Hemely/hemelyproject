@@ -71,7 +71,7 @@
     <h1 class="headline">Transport</h1>
 		<p class="pagetext"> Hinnad kokkuleppel sõltuvalt sõidu kestvusest ja kilometraažist.</p>
   </div>
-  	
+  <hr>	
 	<div>
 		
    	<p class="imagesize"><img class="img-thumbnail" src="images/vito.jpg" alt="Vito"></p>

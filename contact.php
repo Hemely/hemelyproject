@@ -71,7 +71,7 @@
   <div class="text-center">
     <h1 class="headline">Kontakt</h1>
   </div>
-  
+  <hr>
   <!-- Kaart -->
   <div class="row-fluid" >
 		<div class="overlay" onClick="style.pointerEvents='none'"></div>

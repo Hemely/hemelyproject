@@ -74,7 +74,7 @@
 		<b>Praktilise töö tund:</b> 10 akadeemilist tundi
 		</p>
   </div>
-  
+  <hr>
 	<div>
 		<h3>KURSUSE INFO:</h3>
 		<p class="pagetext">

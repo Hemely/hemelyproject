@@ -71,7 +71,7 @@
     <h1 class="headline">Raamatupidamise kursus algajatele</h1>
 		<p class="pagetext"> <b>Maht:</b> 80 akadeemilist tundi</p>
   </div>
-  	
+  	<hr>
 	<div>
 		
 		<h3>KURSUSE INFO:</h3>

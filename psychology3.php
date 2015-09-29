@@ -71,7 +71,7 @@
     <h1 class="headline">Kaubanduspsühholoogia</h1>
 		<p class="pagetext"> <b>Maht:</b> 12 akadeemilist tundi</p>
   </div>
-  	
+  	<hr>
 	<div>
 		<h3>KURSUSE INFO:</h3>
 	<p class="pagetext"><b>KURSUSE TOIMUMISE AEG:</b> kokkuleppel</p>

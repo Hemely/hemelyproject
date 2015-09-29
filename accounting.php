@@ -73,7 +73,7 @@
 		<p class="pagetext"> Teenuse sisuks on kliendi raamatupidamise igapäevane korraldamine.</p>
 		<p class="pagetext"> Hind kokkuleppel sõltuvalt töö mahust </p>
   </div>
-  	
+  <hr>
 	<div>
 		
 		<h3>Teenus sisaldab: </h3> 

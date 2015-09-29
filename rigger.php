@@ -71,7 +71,7 @@
     <h1 class="headline">Töötaja täiendusõpe troppijaks</h1>
 		<p class="pagetext"> <b>Maht:</b> 8 akadeemilist tundi </p>
   </div>
-  	
+  	<hr>
 	<div>
 		
 		<h3>KURSUSE INFO:</h3>

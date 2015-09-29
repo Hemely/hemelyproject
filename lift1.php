@@ -71,9 +71,9 @@
     <h1 class="headline">Tõstukijuhtide koolitus praktilise kogemusega tõstukijuhile</h1>
 		<p class="pagetext"> <b>Maht:</b> 12 akadeemilist tundi (1 päev) </p>
   </div>
-  	
+  	<hr>
 	<div>
-		
+		<p class="tostuk"><img class="img-thumbnail" src="images/tostuk.jpg" alt="Tostuk"></p>
 		<h3>KURSUSE INFO:</h3>
 		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
 			<b>KURSUSE TOIMUMISE AEG:</b><br>10.09.2015<br>12.11.2015<br>10.12.2015<br>
@@ -91,7 +91,6 @@
 			</ul>
 		</p>
 		<p><b>Väljastatav dokument:</b> Tunnistus sisetranspordi liikurmasina juhi ( tõstekahvliga, kopaga, konteinerhaaratsiga või muu haaratsiga sisepõlemismootoriga või elektriajamiga laadurid, virnastajad, kärud ja muud liikurmasinad) kutsealase õppe läbimise kohta.</p>
-		
 	</div>
    
   
