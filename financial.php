@@ -71,7 +71,7 @@
     <h1 class="headline">Väikeettevõtete finantsprogramm</h1>
 		<p class="pagetext"> <b>Maht:</b> 60 akadeemilist tundi </p>
   </div>
-  	
+  	<hr>
 	<div>
 		
 		<h3>KURSUSE INFO:</h3>
