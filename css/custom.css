@@ -23,6 +23,18 @@
 
 }
 
+.navbar-inverse .navbar-nav>li>a:focus, 
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #8A8A8A;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+	color: #8A8A8A;
+	background-color:#E9DDEA;
+}
+
 
 .navbar-inverse .navbar-brand {
 /*    color: #000;*/
@@ -118,6 +130,9 @@ body {
 	padding-top: 40px;
 }
 
+.dropdown-menu {
+/*	background-color: #FCF6FD;*/
+}
 
 .dropdown-menu>li
 {	position:relative;

@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
 	<link rel="shortcut icon" href="images/favicon.ico">
-  <script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
     
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,41 +30,35 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-			
-            <a class="" href="#">
-            <img class="img-responsive logo" src="images/logo.png" alt="try">
-            </a>
+      <img class="img-responsive logo" src="images/logo.png" alt="try">
     </div>
     <div class="collapse navbar-collapse ">
       <ul class="nav navbar-nav ">
-        <li class="active"><a href="index">Esileht</a></li>
+        <li class="active"><a href="esileht">Esileht</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
-					
 					<ul class="dropdown-menu">
-						<li><a href="beginaccounting">Raamatupidamine algajatele</a</li>
-
-
-						<li><a href="lift1">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
-						<li><a href="lift2">Tõstukijuhtide kursus </a></li>
-						<li><a href="rigger">Töötaja täiendusõpe troppijaks </a></li>
-						<li><a href="financial">Väikeettevõtete finantsprogramm</a></li>
+						<li><a href="koolitus/raamatupidamine-algajatele">Raamatupidamine algajatele</a</li>
+						<li><a href="koolitus/tostukijuht-kogemusega">Tõstukijuhtide kursus praktilise kogemusega tõstukijuhile </a></li>
+						<li><a href="koolitus/tostukijuht">Tõstukijuhtide kursus </a></li>
+						<li><a href="koolitus/troppija">Töötaja täiendusõpe troppijaks </a></li>
+						<li><a href="koolitus/finantsprogramm">Väikeettevõtete finantsprogramm</a></li>
 					<li>
 						<a class="trigger right-caret">Psühholoogia</a>
 						<ul class="dropdown-menu sub-menu">
-							<li><a href="psychology1">Suhtlemispsühholoogia</a></li>
-							<li><a href="psychology2">Müügipsühholoogia</a></li>
-							<li><a href="psychology3">Kaubanduspsühholoogia</a></li>
+							<li><a href="koolitus/psuhholoogia/suhtlemine">Suhtlemispsühholoogia</a></li>
+							<li><a href="koolitus/psuhholoogia/muuk">Müügipsühholoogia</a></li>
+							<li><a href="koolitus/psuhholoogia/kaubandus">Kaubanduspsühholoogia</a></li>
 						</ul>
 					</li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Registreerimine</li>
-						<li><a href="registration">Registreeri kohe</a></li>
+						<li><a href="koolitus/registreeri">Registreeri kohe</a></li>
 					</ul>
 				</li>
-        <li><a href="accounting">Raamatupidamisteenus</a></li>
+        <li><a href="raamatupidamine">Raamatupidamisteenus</a></li>
         <li><a href="transport">Transporditeenus</a></li>
-        <li><a href="contact">Kontakt</a></li>
+        <li><a href="kontakt">Kontakt</a></li>
       </ul>
     </div><!--.nav-collapse--> 
   </div>
