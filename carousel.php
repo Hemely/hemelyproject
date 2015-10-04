@@ -20,15 +20,15 @@
     </div>
     
     <div class="item wide2">
-			<div class="carousel-content">
+			<!--<div class="carousel-content">
         <h3>HEMELY PRACTIKA</h3>
-      </div>
+      </div>-->
     </div>
 
     <div class="item wide3">
     </div>
 
-    <div class="item wide">
+    <div class="item wide4">
     </div>
   </div>
   

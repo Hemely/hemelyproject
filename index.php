@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
   <script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/scripts.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -29,10 +30,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand">Hemely Practika</a>
+			
+            <a class="" href="#">
+            <img class="img-responsive logo" src="images/logo.png" alt="try">
+            </a>
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse ">
+      <ul class="nav navbar-nav ">
         <li class="active"><a href="index">Esileht</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Koolitus <b class="caret"></b></a>
@@ -71,12 +75,11 @@
 <div class="container">
   <div class="text-center headline">
     <!-- <h1>Hemely Practika</h1> -->
-			<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="Vito"></p>
+			<!--<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="try"></p>-->
   </div>
 	
 <!--    Siia lehe sisu-->
 
-	
 <br>
 </div><!-- /.container -->
 

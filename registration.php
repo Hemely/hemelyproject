@@ -30,6 +30,7 @@ if(isset($_POST['submit'])){
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
   <script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/scripts.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -49,7 +50,9 @@ if(isset($_POST['submit'])){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand">Hemely Practika</a>
+      <a class="" href="#">
+            <img class="img-responsive logo" src="images/logo.png" alt="try">
+            </a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
