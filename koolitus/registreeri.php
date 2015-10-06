@@ -89,7 +89,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="text-center">
     <h1 class="headline">Registreerimine kursusele</h1>
-		<p class="pagetext"> <!--Saada kursusele registreerimssoov või küsi lisainfot.--> <br> Registreerimise soov saatke helitmk@hot.ee </p>
+		<p class="pagetext"> <!--Saada kursusele registreerimssoov või küsi lisainfot.--> <br> Palun saatke registreerimise soov e-maili aadressile helitmk@hot.ee või helistage 522 3263 </p>
  	</div>
 	<div class="container">
 <!--
