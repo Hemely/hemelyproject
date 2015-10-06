@@ -194,9 +194,18 @@ font-size: 17px;
 	float: right
 	}
 
-.logo{
-margin-top: 4.5px;
+<!--.logo{
+	margin-top: 4.5px;
 	margin-right: 12px;
+	max-height: 31px;
+	
+}-->
+
+.logo{
+	margin-top: 5px;
+	margin-right: 12px;
+	max-height: 30px;
+	
 }
 
 .column-left{ 

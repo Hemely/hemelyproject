@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img class="img-responsive logo" src="images/logo.png" alt="try">
+      <img class="img-responsive logo" src="images/logo2.png" alt="try">
     </div>
     <div class="collapse navbar-collapse ">
       <ul class="nav navbar-nav ">
@@ -90,7 +90,7 @@ Korraldame koolitusi igas vanuses täiskasvanutele.
 	
 		<div class="column-right">
 			<img class="img ikoon" src="images/ikoontrans.png" alt="Transport"></p>
-		<p class="frontpagetext"> Transporditeenus nii Eestiks kui ka välismaal mugavate busside või väikebussidega. </p>
+		<p class="frontpagetext"> Transporditeenus nii Eestis kui ka välismaal mugavate busside või väikebussidega. </p>
 	</div>
 
 <br>
