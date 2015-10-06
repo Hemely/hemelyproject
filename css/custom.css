@@ -43,6 +43,21 @@ body {
 /*    color: #000;*/
 }
 
+.navbar-inverse .navbar-toggle {
+	border-color: #6B187D;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #6B187D;
+}
+
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #FFF;
+}
+
+
+
 .nav.navbar-nav li a {
 /*	background-color:#D2D2D2;*/
 	color: #333; /*navbar teksti värv */
@@ -105,6 +120,16 @@ body {
     .desktop-only {
         display:none !important;
     }
+	
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+			color: #333;
+			background-color:#FCF6FD;
+		}
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+			color: #8A8A8A;
+			background-color:#FCF6FD;
+		}
+
 }
 
 body {
