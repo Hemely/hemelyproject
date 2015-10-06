@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img class="img-responsive logo" src="images/logo.png" alt="try">
+      <img class="img-responsive logo" src="images/logo2.png" alt="try">
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">

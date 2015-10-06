@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img class="img-responsive logo" src="../images/logo.png" alt="try">
+      <img class="img-responsive logo" src="../images/logo2.png" alt="try">
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
@@ -89,7 +89,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="text-center">
     <h1 class="headline">Registreerimine kursusele</h1>
-		<p class="pagetext"> Saada kursusele registreerimssoov või küsi lisainfot. </p>
+		<p class="pagetext"> <!--Saada kursusele registreerimssoov või küsi lisainfot.--> <br> Registreerimise soov saatke helitmk@hot.ee </p>
  	</div>
 	<div class="container">
 <!--
