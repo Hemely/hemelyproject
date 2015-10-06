@@ -73,24 +73,24 @@
   </div>
   	<hr>
 	<div>
-		<p class="tostuk"><img class="img-thumbnail" src="images/tostuk.jpg" alt="Tostuk"></p>
+		<p class="tostuk"><img class="img-thumbnail" src="../images/tostuk.jpg" alt="Tostuk"></p>
 		<h3>KURSUSE INFO:</h3>
 		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
-			<b>KURSUSE TOIMUMISE AEG:</b><br>10.09.2015<br>12.11.2015<br>10.12.2015<br>
+			<b>KURSUSE TOIMUMISE AEG:</b><br>20.10.2015<br>12.11.2015<br>10.12.2015<br>
 			<b>KURSUSE HIND:</b> 100 eurot, hinnale lisandub käibemaks 20%<br>
 		</p>
 		
 		<p class="pagetext"> Kaasa võtta <b>1 pilt tunnistusele (3x4 cm)</b><br>
 		<b>Tõstukijuhi koolitusi viime läbi ka Teie ettevõttes kohapeal.</b></p>
 		
-		<h3>KURSUSE SISU</h3>
+		<h3>KURSUSE SISU:</h3>
 		<p>
-			<ul>
+			<ul class="pagetext">
 				<li><b>Teooriakursus</b>-  tõstukite, virnastajate, kärude ehitus, kasutamine ja hooldamine. 		Laadimistööde teostamise kord. Ohutusmeetmed. Esmaabi. Tööohutuse ja töösuhete õigusaktid. Eksam.</li>
 				<li><b>Tööpraktika omas ettevõttes</b>-  80 tundi (ettevõtte tööohutuse juhendid, tõstukite kasutamise ja hooldamise juhendid. Harjutused juhendaja juhendamisel. Proovitöö sooritamine.</li> Enne teooriakursust esitab õppija tööpraktika tõendi tööandjalt.
 			</ul>
 		</p>
-		<p><b>Väljastatav dokument:</b> Tunnistus sisetranspordi liikurmasina juhi ( tõstekahvliga, kopaga, konteinerhaaratsiga või muu haaratsiga sisepõlemismootoriga või elektriajamiga laadurid, virnastajad, kärud ja muud liikurmasinad) kutsealase õppe läbimise kohta.</p>
+		<p class="pagetext"><b>Väljastatav dokument:</b> Tunnistus sisetranspordi liikurmasina juhi ( tõstekahvliga, kopaga, konteinerhaaratsiga või muu haaratsiga sisepõlemismootoriga või elektriajamiga laadurid, virnastajad, kärud ja muud liikurmasinad) kutsealase õppe läbimise kohta.</p>
 	</div>
    
   

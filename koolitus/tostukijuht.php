@@ -69,7 +69,7 @@
 <div class="container">
   <div class="text-center">
     <h1 class="headline">Tõstukijuhtide koolitus </h1>
-		<p class="pagetext"> <b>Maht:</b> 69 akadeemilist tundi (16 akadeemilist tundi teooria ja 80 akadeemilist tundi õppepraktika ettevõttes)</p>
+		<p class="pagetext"> <b>Maht:</b> 96 akadeemilist tundi (16 akadeemilist tundi teooria ja 80 akadeemilist tundi õppepraktika ettevõttes)</p>
   </div>
 	<hr>
   	
@@ -77,7 +77,7 @@
 		<p class="tostuk"><img class="img-thumbnail" src="../images/tostuk.jpg" alt="Tostuk"></p>
 		<h3>KURSUSE INFO:</h3>
 		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
-			<b>KURSUSE TOIMUMISE AEG:</b> kokkuleppel<br>
+			<b>KURSUSE TOIMUMISE AEG:</b><br>20.10.2015<br>12.11.2015<br>10.12.2015<br>
 			<b>KURSUSE HIND:</b> 450 eurot, hinnale lisandub käibemaks 20%<br>
 			
 		</p>

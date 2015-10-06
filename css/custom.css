@@ -1,3 +1,7 @@
+body {
+	font-size: 15px;
+}
+
 .navbar-brand {
 	object-fit: contain;
 }
@@ -5,7 +9,6 @@
 .navbar {
   background-color:#FCF6FD;
 	border-color: #6B187D;
-	
 }
 
 .navbar-default {
@@ -62,7 +65,7 @@
 .wide2 {
   /*width:100%;*/
   height:250px;
-  background-image:url('../images/ribtostuk.jpg');
+  background-image:url('../images/tostukrek.jpg');
   background-size:cover;
   background-position: center;
   background-size: 101%;
@@ -71,7 +74,7 @@
 .wide3 {
   /*width:100%;*/
   height:250px;
-  background-image:url('../images/raamat2.jpg');
+  background-image:url('../images/raamat3.jpg');
   background-size:cover;
   background-position: center;
   background-size: 101%;
@@ -80,7 +83,7 @@
 .wide4 {
   /*width:100%;*/
   height:250px;
-  background-image:url('../images/pea.jpg');
+  background-image:url('../images/transport.jpg');
   background-size:cover;
   background-position: center;
   background-size: 101%;
@@ -120,6 +123,11 @@ body {
 
 .pagetext{
   font-size: 17px;
+}
+
+.frontpagetext{
+font-size: 17px;
+	text-align: center;
 }
 
 .imagesize{
@@ -191,3 +199,17 @@ margin-top: 4.5px;
 	margin-right: 12px;
 }
 
+.column-left{ 
+	float: left; width: 33%; 
+}
+.column-right{ 
+	float: right; width: 33%;
+}
+.column-center{ 
+	display: inline-block; width: 33%;
+}
+.ikoon{
+	display: block;
+  margin: 0 auto;
+   
+}

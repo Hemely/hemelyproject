@@ -76,10 +76,7 @@
 		
 		<h3>KURSUSE INFO:</h3>
 		<p class="pagetext"> <b>KURSUSE TOIMUMISE KOHT:</b> Tartus, Riia 185 (Tartu Teaduspargi maja), II korrus (215)<br>
-			<b>KURSUSE TOIMUMISE AEG:</b><br>
-			19.01.2015 - 09.02.2015<br>
-			23.03.2015 – 16.04.2015<br>
-			11.05.2015  - 01.06.2015<br>
+			<!--<b>KURSUSE TOIMUMISE AEG:</b><br>-->
 			<b>KORRALDUS:</b> esmaspäev, kolmapäev, reede, kell 9.00 – 15.30<br>
 			<b>LEKTOR:</b> Heli Halling-Meitern - Raamatupidamise lektor aastast 1995. Töötanud pearaamatupidajana 11 aastat. Osutab väikeettevõtjatele raamatupidamisteenust.<br>
 		</p>

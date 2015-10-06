@@ -68,11 +68,30 @@
 
 <div class="container">
   <div class="text-center headline">
-    <!-- <h1>Hemely Practika</h1> -->
-			<!--<p class="img-responsive center-block"><img class="img-responsive center-block" src="images/try.png" alt="try"></p>-->
+     <!--<h1>Põhitegevusalad</h1>-->
+		 <hr>
+			
   </div>
 	
-<!--    Siia lehe sisu-->
+<div class="column-left">
+	<img class="img ikoon" src="images/ikoonkoolitus.png" alt="Transport"></p>
+<p class="frontpagetext "> 
+Korraldame koolitusi igas vanuses täiskasvanutele.
+	Oodatud on kõik, kes soovivad täiendada oma erialaseid teadmisi või õppida midagi päris uut.
+	Meie täiendusõppe tugevus on  teooria ja praktika seotus. Pakume erialaseid teadmisi ja nende rakendusvõimalusi igapäevatöös kõigis õpetatavates valdkondades.
+	Õppekeskkond on mugav ja meeldiv, õppegrupid on reeglina väikesed.
+
+ </p>
+	</div>
+	<div class="column-center">
+		<img class="img ikoon" src="images/ikoonraam.png" alt="Transport"></p>
+		<p class="frontpagetext"> Pakume väikefirmadele kvaliteetset raamatupidamisteenust. Samuti on võimalus saada ka finantsnõustamist </p>
+	</div>
+	
+		<div class="column-right">
+			<img class="img ikoon" src="images/ikoontrans.png" alt="Transport"></p>
+		<p class="frontpagetext"> Transporditeenus nii Eestiks kui ka välismaal mugavate busside või väikebussidega. </p>
+	</div>
 
 <br>
 </div><!-- /.container -->
