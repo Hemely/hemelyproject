@@ -245,5 +245,19 @@ font-size: 17px;
 .ikoon{
 	display: block;
   margin: 0 auto;
-   
+}
+
+.formcont {
+	width: 500px;
+	clear: both;
+	width: 50%;
+	margin: 0 auto;
+}
+.formcont input {
+	width: 100%;
+	clear: both;
+}
+.formcont textarea {
+	width: 100%;
+	clear: both;
 }

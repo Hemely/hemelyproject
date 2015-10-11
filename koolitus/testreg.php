@@ -1,23 +1,3 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "kasutajatestimiseks@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-?>
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -38,6 +18,7 @@ if(isset($_POST['submit'])){
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+	
 </head>
 
 <body>
@@ -84,7 +65,6 @@ if(isset($_POST['submit'])){
   </div>
 </div>
 
-<?php include '../carousel.php';?>
 
 <div class="container">
   <div class="text-center">
@@ -92,13 +72,12 @@ if(isset($_POST['submit'])){
 <!--		<p class="pagetext"> Saada kursusele registreerimssoov või küsi lisainfot. <br> Palun saatke registreerimise soov e-maili aadressile helitmk@hot.ee või helistage 522 3263 </p>-->
  	</div>
 	
+	<br>
 	
 	<div class="text-center">
 		<div id="error" style="display: none; color: red;"><p class="pagetext">Palun täida kõik lahtrid</p></div>
 		<div id="success" style="display: none; color: green;"><p class="pagetext">Kiri edukalt saadetud!</p></div>
 	</div>
-
-<br>
 
 <?php
 //if "email" variable is filled out, send email
@@ -158,11 +137,11 @@ if(isset($_POST['submit'])){
 		</form>
   </div>
 	
+
 	
 <br>
 </div><!-- /.container -->
 
-<?php include '../footer.html';?>
 
 </body>
 </html>
